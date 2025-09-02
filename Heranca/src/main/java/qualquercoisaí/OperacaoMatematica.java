@@ -1,4 +1,5 @@
 package qualquercoisaí;
 
-public class OperacaoMatematica {
+public interface OperacaoMatematica {
+    double calcular(double a, double b);
 }
