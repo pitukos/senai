@@ -1,6 +1,7 @@
 package Polimorfismo;
 
 public interface Animal {
-    public abstract String emitirsom();
-
+    String emitirSom();
+    String comer();
 }
+
