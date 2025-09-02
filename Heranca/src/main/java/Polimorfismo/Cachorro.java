@@ -2,7 +2,12 @@ package Polimorfismo;
 
 public class Cachorro implements Animal {
     @Override
-    public String emitirsom() {
-        return "Auau";
+    public String emitirSom() {
+        return "Au Au!";
+    }
+    
+    @Override
+    public String comer() {
+        return "Cachorro está comendo ração";
     }
 }
